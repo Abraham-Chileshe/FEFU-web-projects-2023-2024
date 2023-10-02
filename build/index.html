@@ -10,11 +10,12 @@
 
         <link rel="icon" href="img/net.png" type="image/jpg"/>
         <link rel="stylesheet" href="css/style.css"/>
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
 
+        <!--Navigation bar section-->
         <nav id="navbar" class="">
             <div class="nav-wrapper">
               <!-- Navbar Logo -->
@@ -31,29 +32,88 @@
               </ul>
             </div>
           </nav>
+          <!--//--------- -->
         
         
-         <!-- Netlix big image-->
+        <!-- Netlix big image-->
         <div class="main">
             <center>
                 <img src="img/netflix.png" width="500px" alt="First image" /><br /><br /><br/>
                 <a href="https://www.netflix.com/" target="_blank">Visit Official Site</a>
             </center>
         </div>
+         <!-- Netlix big image-->
        
-        <!--Description-->
+
+        <!--Description Text -->
         <div class="text-area">
             <article>
                 <h3>What is Netflix?</h3>
                 <p><b>Netflix</b> is an <u>American</u> subscription video on-demand over-the-top <strong>streaming service</strong> owned and operated by Netflix, Inc. that primarily distributes original and acquired films and television shows from various genres, and it is available internationally in multiple languages.[6]                Launched on January 16, 2007, nearly a decade after Netflix, Inc. began its DVD-by-mail service, Netflix is the most-subscribed video on demand streaming media service, with 238.39 million paid memberships in more than 190 countries.[7] By 2022, original productions accounted for half of its library in the United States and the namesake company had ventured into other categories, such as video game publishing via its eponymous service.</p>
             </article>
-            
-            <center>
-                <img src="img/net.png"/>
-                <hr width="60%"/>
-            </center>
         </div>
+         <!--Description Text -->
 
+        <!--What is Trending section-->
+        <section class="trending">
+            <h1>Trending Now: The Nun Part 2</h1><br /><br />
+            <div>
+                <!-- Three images for trending section-->
+                <center>
+                    <img src="img/cover.jpg" width="300px"/>
+                    <img src="img/cover2.jpg" width="300px"/>
+                    <img src="img/cover3.jpg" width="300px"/>
+                </center>
+            </div>
+            
+            <!--Five star rating for the movie-->
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+              <!--Five star rating for the movie-->
+
+            <!-- Commment Form-->
+            <div>
+                <form action="#">
+                    <fieldset>
+                        <legend>Add your comment here</legend>
+                        <div>
+                            <label for="name">Name: </label>
+                            <input type="text" id="name" placeholder="Enter you name" /> <!-- name input-->
+                        
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" placeholder="Enter you email" /><br /><br/> <!-- email input-->
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Other Details</legend>
+                        <div>
+                            <label for="phone">Phone: </label> 
+                            <input type="number" id="name" placeholder="Enter you phone number" /> <!-- phone number input-->
+                        
+                            <label for="password">Pass: </label> 
+                            <input type="password" id="email" placeholder="Enter you password" /> <!-- password input-->
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Comment</legend>
+                        <textarea  name="comment" rows="4" cols="115"></textarea>
+                    </fieldset>
+
+                    <button class="submit">Comment</button>
+                </form>
+            </dive>
+            <!--// Commment Form-->
+      
+        </section>
+
+        
         <footer>
             <center>
                 <h3>Copyright @ 2023 | <a href="https://vk.com/ab_chileshe" target="_blank"> Abraham Chileshe</a></h3>
