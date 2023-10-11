@@ -1,0 +1,45 @@
+.req{
+    color:red;
+ }
+ input{
+     padding:2px 15px;
+ }
+ #name{
+     margin-left:60px;
+ }
+ #phone{
+     margin-left:3em;
+
+ }
+ #email{
+     margin-left:4em;
+ }
+ .gender{
+    padding:2px 15px;
+    margin-left:1em;
+ }
+ #height{
+    margin-left:45px;
+ }
+ #pre{
+    margin-left:45px;
+    margin-top:-3em;
+ }
+ .forms{
+     margin-top:1em;
+ }
+ fieldset{
+     margin-top:2em
+ }
+ .gender{
+     padding:6px 50px;
+     margin-left:6em;
+ }
+ .age{
+     margin:0pxs
+ }
+ .submit{
+    margin-top:2em;
+    padding: 15px 12px;
+    
+ }
