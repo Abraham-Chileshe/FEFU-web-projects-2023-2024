@@ -1,0 +1,101 @@
+body{
+    background-image:url('../img/bg.jpg') 
+}
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-top:5em;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 50px 6px #48abe0bd;
+}
+
+th, td {
+    border: 1px solid #48abe0;
+    padding: 8px;
+    text-align: center;
+   
+}
+
+th {
+    background-color:black;
+    color:white;
+}
+.large-area{
+    background-color:rgb(219, 219, 141);
+}
+.second-area{
+    background-color:black;
+    color:white;
+}
+td {
+    background-color: #ffffff;
+}
+
+td[colspan="2"] {
+    font-weight: bold;
+}
+a[href]{
+    color:rgb(248, 36, 36);
+    text-decoration:none;
+}
+a[href]:hover{
+    color:blue;
+    transition:0.5s;
+}
+
+
+/* Form-div Css */
+.form-div{
+    border-collapse: collapse;
+    width: 70%;
+    margin-top:5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    border-radius: 10px;
+}
+form{
+    margin: 60px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+fieldset{
+    margin-top:2em;
+}
+legend{
+    color:#e9760b;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left:1em;
+}
+input[type=checkbox] {
+    margin-left:1em;
+}
+.forms{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#submit{
+    background-color: #e9760b;
+    color:white;
+    padding:10px 12px;
+    border:none;
+    margin-top:2em;
+}
+#submit:hover{
+    background-color: black;
+    color:white;
+    transition: 0.5s ease-in-out;
+}
+
+textarea{
+ margin-top:20px;
+}
+.gender{
+    padding: 5px 4em;
+    margin-left:3em;
+}
